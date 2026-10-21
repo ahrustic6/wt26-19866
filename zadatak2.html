@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <title>Rezervacija termina</title>
+</head>
+<body>
+
+    <h1>Rezervacija termina u kozmetičkom salonu</h1>
+
+    <p>
+        Popunite formu kako biste odabrali
+        željene usluge i termin.
+    </p>
+
+    <form>
+
+        <label for="ime">Ime i prezime:</label>
+        <input type="text" id="ime" name="ime">
+
+        <br><br>
+
+        <label for="email">Email adresa:</label>
+        <input type="email" id="email" name="email">
+
+        <br><br>
+
+        <label for="datum">Željeni datum:</label>
+        <input type="date" id="datum" name="datum">
+
+        <h3>Vrijeme termina:</h3>
+
+        <input type="radio" id="jutro"
+               name="vrijeme" value="jutro">
+        <label for="jutro">Jutro</label>
+
+        <input type="radio" id="popodne"
+               name="vrijeme" value="popodne">
+        <label for="popodne">Popodne</label>
+
+        <input type="radio" id="vece"
+               name="vrijeme" value="vece">
+        <label for="vece">Večer</label>
+
+        <h3>Odaberite željene usluge:</h3>
+
+        <input type="checkbox" id="manikir"
+               name="usluge" value="manikir">
+        <label for="manikir">Manikir</label>
+
+        <br>
+
+        <input type="checkbox" id="pedikir"
+               name="usluge" value="pedikir">
+        <label for="pedikir">Pedikir</label>
+
+        <br>
+
+        <input type="checkbox" id="tretman"
+               name="usluge" value="tretman">
+        <label for="tretman">Tretman lica</label>
+
+        <br><br>
+
+        <button type="button">Potvrdi izbor</button>
+
+    </form>
+
+</body>
+</html>
