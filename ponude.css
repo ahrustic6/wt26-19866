@@ -1,0 +1,28 @@
+
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#glavniNaslov {
+    color: orange;
+    text-align: center;
+}
+
+.ponuda {
+    background-color: #333333;
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid gray;
+    font-family: Arial, sans-serif;
+}
+
+.preporucena {
+    background-color: #4a2810;
+    border: 3px solid orange;
+}
+
+.ponuda h2 {
+    color: orange;
+}
