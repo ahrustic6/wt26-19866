@@ -1,0 +1,44 @@
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+h1, h2 {
+    color: orange;
+}
+
+input, textarea {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#greska {
+    color: red;
+    font-weight: bold;
+}
+
+#pregled {
+    background-color: #333333;
+    padding: 20px;
+    border: 2px solid gray;
+    width: 400px;
+    overflow-wrap: break-word;
+}
+
+.informacija {
+    background-color: #234b63 !important;
+    border: 2px solid #55bbee !important;
+}
+
+.upozorenje {
+    background-color: #633323 !important;
+    border: 2px solid orange !important;
+}

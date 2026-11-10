@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <title>Matinee - Evidencija troskova</title>
+    <link rel="stylesheet" href="zadatak3.css">
+    <script src="zadatak3.js" defer></script>
+</head>
+<body>
+
+    <h1>Sarajevo Matinee - Evidencija troškova</h1>
+
+    <h2>Dodavanje troška</h2>
+
+    <form id="forma">
+
+        <label for="naziv">Naziv troška:</label>
+        <input type="text" id="naziv">
+
+        <br><br>
+
+        <label for="iznos">Iznos (KM):</label>
+        <input type="text" id="iznos">
+
+        <br><br>
+
+        <button type="submit">Dodaj trošak</button>
+
+    </form>
+
+    <p id="greska"></p>
+
+    <h2>Pregled troškova</h2>
+
+    <p id="brojac">Broj stavki: 3</p>
+
+    <table id="tabela">
+        <thead>
+            <tr>
+                <th>Naziv troška</th>
+                <th>Iznos (KM)</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Ulaznica</td>
+                <td>20</td>
+            </tr>
+
+            <tr>
+                <td>Kostim</td>
+                <td>50</td>
+            </tr>
+
+            <tr>
+                <td>Prevoz</td>
+                <td>10</td>
+            </tr>
+
+            <tr id="redZbir">
+                <th>Ukupno</th>
+                <td id="ukupno">80</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

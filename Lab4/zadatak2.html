@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <title>Matinee - Obavijesti</title>
+    <link rel="stylesheet" href="zadatak2.css">
+    <script src="zadatak2.js" defer></script>
+</head>
+<body>
+
+    <h1>Sarajevo Matinee - Obavijesti</h1>
+
+    <h2>Kreiranje obavijesti</h2>
+
+    <form id="forma">
+
+        <label for="naslov">Naslov obavijesti:</label>
+        <br>
+        <input type="text" id="naslov">
+
+        <br><br>
+
+        <label for="tekst">Tekst obavijesti:</label>
+        <br>
+        <textarea id="tekst" rows="4" cols="40"></textarea>
+
+        <br><br>
+
+        <p>Kategorija obavijesti:</p>
+
+        <input type="radio" id="informacija"
+               name="kategorija" value="informacija" checked>
+        <label for="informacija">Informacija</label>
+
+        <input type="radio" id="upozorenje"
+               name="kategorija" value="upozorenje">
+        <label for="upozorenje">Upozorenje</label>
+
+        <br><br>
+
+        <button type="button" id="pregledaj">
+            Pregledaj obavijest
+        </button>
+
+        <button type="reset" id="reset">
+            Resetuj formu
+        </button>
+
+    </form>
+
+    <p id="greska"></p>
+
+    <h2>Pregled obavijesti</h2>
+
+    <div id="pregled">
+        <h3 id="pregledNaslov">Naslov obavijesti</h3>
+        <p id="pregledTekst">Tekst obavijesti</p>
+        <p id="pregledKategorija">Kategorija: -</p>
+    </div>
+
+</body>
+</html>

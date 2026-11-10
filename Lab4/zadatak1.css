@@ -1,0 +1,40 @@
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+h1 {
+    color: orange;
+}
+
+#brojac {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li {
+    background-color: #333333;
+    padding: 15px;
+    margin-bottom: 10px;
+    width: 400px;
+    border: 1px solid gray;
+}
+
+button {
+    padding: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.zavrseno {
+    background-color: #355e3b;
+    text-decoration: line-through;
+}
+
+#reset {
+    background-color: orange;
+    border: 1px solid white;
+    padding: 10px;
+}
